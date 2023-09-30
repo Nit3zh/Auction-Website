@@ -1,0 +1,68 @@
+
+    <!-- Navigation Starts Here -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+        <!-- NavBar Container Starts Here -->
+        <div class="container-fluid">
+
+            <!-- Logo Starts -->
+            <a class="navbar-brand" href="./index.php">
+                <img src="./images/Logo.png" alt="Bhartiya-Mudra-Logo" title="Bhartiya Mudra">
+            </a>
+            <!-- Logo Ends -->
+
+            <!-- Hamburger Button Starts Here -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Hamburger Button Ends Here -->
+
+            <!-- Navbar Collapse Starts Here -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.php">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./upcomingauction.php">Upcoming Auctions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./aboutus.php">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contactus.php">Contact Us</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li> -->
+                </ul>
+                <!-- <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> -->
+
+                <!-- Login Menu Starts Here -->
+                <div class="nav-item dropdown getin">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Get In
+                    </a>
+
+                    <!-- Menu Items Here -->
+                    <ul class="dropdown-menu">
+                        <li name="regUser"><a class="dropdown-item ureg-btn" href="./register.php">Register User</a></li>
+                        <li><a class="dropdown-item ulog-btn" href="./userlogin.php">User Login</a></li>
+                        <li><a class="dropdown-item alog-btn" href="./adminlogin.php">Admin Login</a></li>
+                        <!-- <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                    </ul>
+                </div>
+                <!-- Login Menu Ends Here -->
+
+            </div>
+            <!-- Navbar Collapse Ends Here -->
+
+        </div>
+        <!-- NavBar Container Ends Here -->
+    </nav>
+
+    <!-- Navigation Bar Ends Here -->

@@ -1,0 +1,50 @@
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.orders{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.log{
+    width: 100%;
+    box-shadow: 2px; 
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.crec{
+    display: inline-block;
+    width: 80%;
+    text-align: justify;
+    margin: 0;
+    padding: 5px 20px 5px 20px;
+}
+
+.cname{
+    display: block;
+    margin: 0;
+}
+
+.cname h4{
+    margin: 0;
+}
+
+.cprice{
+    display:inline-block;
+    width: 15%;
+}
+
+.cprice p{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.5em;
+}

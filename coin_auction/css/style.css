@@ -1,0 +1,51 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+form{
+    box-shadow: 2px 2px 5px grey;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+table{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.tablehead{
+    text-align: center;
+    color:slategrey;
+    font-weight: lighter;
+    text-shadow: 1px 1px 2px slategrey;
+    letter-spacing: 10px;
+}
+
+input{
+    width: 100%;
+}
+
+.subtn{
+    text-align: center;
+}
+tr{
+    height: 50px;
+}
+
+button{
+    background-color: deepskyblue;
+    color: white;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid skyblue;
+    font-weight: bold;
+}

@@ -1,0 +1,39 @@
+main{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+h1{
+    margin: 0 auto;
+    text-align: center;
+}
+
+main.opmenu{
+    display: block;
+    width: 80%;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.opmenu .add, .opmenu .edt, .opmenu .dlt{
+    display: inline-block;
+    width: 20%;
+    margin: 0px 35px;
+    box-shadow: 2px 2px 5px grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: deepskyblue;
+}
+
+.opmenu .add a:link,.opmenu .edt a:link,.opmenu .dlt a:link,
+.opmenu .add a:visited,.opmenu .edt a:visited,.opmenu .dlt a:visited{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.coinlog{
+    width: 70%;
+    margin: 0 auto;
+}
